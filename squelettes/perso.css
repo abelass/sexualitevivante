@@ -1,0 +1,86 @@
+.articles_recents, .sousrubriques{display:none}
+
+
+
+
+.boite_extra {
+	clear:both; 
+	float:right; 
+	width :25%; 
+	padding: 10px;
+	margin: 5px 0 5px 5px;
+	font-size:110%;
+	background:#D9D3BB;
+	}
+
+#outils{clear:right; margin:5px 0 5px 5px}
+
+#outils.absolute{position:relative; clear:both;}
+
+
+/* Menu nav*/
+#nav{
+  background: transparent url(img/nav-nav-left.png) no-repeat left top;
+
+}
+
+#nav .menu-conteneur{
+  background: transparent url(img/nav-bg-left.png) no-repeat right top;
+
+}
+
+#nav ul.menu-liste li, #nav ul.menu-liste {
+  background: transparent url(img/nav-div.png) no-repeat right top;
+}
+
+#nav ul.menu-liste li:hover{
+  opacity:0.8
+}
+
+
+#nav ul.menu-liste span.hover { 
+background: url(img/nav-active.png) repeat-x transparent;
+}
+
+#nav ul.menu-liste li a { 
+color: #FFFFFF;
+}
+
+
+#extra #formulaire_recherche label, #navigation #formulaire_recherche label, #extra #formulaire_menu_lang label, #navigation #formulaire_menu_lang label {
+    background: url("img/box-title-bg.png") no-repeat scroll left top transparent;
+}
+
+#extra .liste .h2, #navigation .liste .h2, #extra .contenu .h2, #navigation .contenu .h2, #extra .formulaire_spip .h2, #navigation .formulaire_spip .h2 { 
+background: url("img/box-title-bg-left.png") no-repeat transparent;
+}
+
+.formulaire_spip .boutons input, input.submit {
+    background: none repeat scroll 0 0 #A6651D;
+    border: 1px solid #EE9A3D;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.formulaire_spip .boutons input:hover, input.submit:hover, .formulaire_spip .boutons input:active, input.submit:active {
+  color:#FFD68A;
+}
+
+a, a.spip_in, a.spip_out, a.spip_note, a.spip_ancre, a.spip_url, a.spip_glossaire, a.spip_mail {
+    color: #B57B3A;
+}
+
+blockquote.spip_poesie {
+	color:#7D0000;
+	width: 60%;
+	opacity:0.6;
+	padding:1em;
+	margin: 2em 0 2em 5%;
+}
+
+#entete .accueil strong#nom_site_spip{
+font-weight:100}
+
+#entete .accueil,h1, .h1, h2 { 
+font-family: "Arial", "Helvetica", "Sans", "FreeSans", "Jamrul", "Garuda", "Kalimati";
+}
+

@@ -1,0 +1,13 @@
+<B_articles>
+<div class="liste articles sommaire">
+	#ANCRE_PAGINATION
+	<ul class="menu-liste">
+		<BOUCLE_articles(ARTICLES) {id_rubrique} {par num titre}{lang} {pagination 5}>	
+		<li class="menu-entree">
+				<a href="#URL_ARTICLE">[(#TITRE)]</a>
+		</li>
+		</BOUCLE_articles>
+	</ul>
+	[<p class="pagination">(#PAGINATION)</p>]
+</div>
+</B_articles>
