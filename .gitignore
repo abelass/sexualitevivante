@@ -1,3 +1,8 @@
 *.class
 *.pyc
 *.pyo
+IMG
+local
+config/connect.php
+local
+tmp

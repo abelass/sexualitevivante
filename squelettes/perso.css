@@ -1,8 +1,5 @@
 .articles_recents, .sousrubriques{display:none}
 
-
-
-
 .boite_extra {
 	clear:both; 
 	float:right; 
@@ -84,3 +81,4 @@ font-weight:100}
 font-family: "Arial", "Helvetica", "Sans", "FreeSans", "Jamrul", "Garuda", "Kalimati";
 }
 
+#comments .h2, .comments h2{display:none}
